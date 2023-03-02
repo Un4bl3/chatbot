@@ -1,0 +1,58 @@
+{"intents":
+    [
+        {
+            "tag": "greetings",
+            "patterns": ["hey","hello","labas","heey","wats up", "hi", "cheers", "greetings"],
+            "response": ["Cheers!", "?","Hello"]
+        },
+        {
+            "tag": "Stupid_questions",
+            "patterns": ["what are you?","?","what you can do?","do something"],
+            "response": ["I am chatbot, who can give you advice on your wishes, tell me what you are interested in","What you are interested in?","Ask me about products..."]
+        },
+        {
+            "tag": "question_about_prices",
+            "patterns": ["what is price of your products?", "your prices?", "how much you want?","price?","how much money?","what are prices?"],
+            "response": ["Only for you its ... ","It depends on a product, but on average it is 50 eur", "our products are around 50-300 eur"]
+        },
+        {
+            "tag": "answers_to_dr",
+            "patterns": ["no"],
+            "response": ["I doubt it", "Are you sure?","Think about it" ]
+        },
+        {
+            "tag": "question_about_product",
+            "patterns": ["tell me about your products?"],
+            "response": ["We have vast choice of products. What are you interested in?"]
+        },
+        {
+            "tag": "answers_to_product1",
+            "patterns": ["I am interested in games", "games", "playstation", "pc"],
+            "response": ["There is a great second-hand game distributor Eneba. There you can find a lot of games. F.e God of War Ragnarok for only 60 eur and a lot more. Check it on your own: Eneba.lt " ]
+        },
+        {
+            "tag": "answers_to_product2",
+            "patterns": ["I am interested in sports","sports","gym","running"],
+            "response": ["Great life choice!", "I like it", "Visit this! I doubt that you will find anything better MP.lt" ] 
+        },
+        {
+            "tag": "answers_to_product3",
+            "patterns": [""],
+            "response": [""]
+        },
+        {
+            "tag": "answers_to_product4",
+            "patterns": ["books","learning","growth","perspective"],
+            "response": ["Great! It will take you somewhere. F.e to our partner Knygos.lt"]
+        },
+        {
+            "tag": "answers_to_product5",
+            "patterns": ["else"],
+            "response": ["Sorry, I am not familiar with any of companies involved in it"]
+        }
+
+
+
+    ]
+
+}
